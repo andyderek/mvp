@@ -1,0 +1,31 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "my first app from scratch",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "html": "0.0.10",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.12",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyderek/2016-03-mvp-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyderek/2016-03-mvp-project/issues"
+  },
+  "homepage": "https://github.com/andyderek/2016-03-mvp-project#readme"
+}

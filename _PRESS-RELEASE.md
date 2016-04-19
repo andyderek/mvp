@@ -17,16 +17,17 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > IATSE Local 16 Job Ledger
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > This product is for members of IATSE Local 16 to keep better track of they're wages
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > This app is great as a quick reference to calculate your wages for the day, week or completed job.
 
 ## Problem ##
   > Describe the problem your product solves.
+    
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.

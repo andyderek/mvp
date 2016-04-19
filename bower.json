@@ -1,0 +1,21 @@
+{
+  "name": "mvp",
+  "description": "my first app from scratch",
+  "main": "server.js",
+  "authors": [
+    "Andy Nixon <andielane@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/andyderek/2016-03-mvp-project",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
