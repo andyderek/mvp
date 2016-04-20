@@ -1,6 +1,6 @@
-angular.module('wageCalculator', [])
+angular.module('wageCalculator.calculate', [])
 
-  .controller('wageCalculatorCtrl', function($scope){
+  .controller('wageCalculatorCtrl', function($scope, Wage){
     $scope.wages = 0;
     $scope.hours = {
       regular: 0,
@@ -9,10 +9,7 @@ angular.module('wageCalculator', [])
     };
     $scope.totals = function(){
       $scope.wages = ((($scope.hours.regular * 1) + (1.5 * $scope.hours.overtime) + (2 * $scope.hours.doubletime)) * 39.90) * 1.08;
-      $scope.addWage($scope.totals)
-      .catch(function(err){
-        console.log(err);
-      })
+      Wage.addWage($scope.wages)
     };
     
   });

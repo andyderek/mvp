@@ -1,4 +1,4 @@
-angular.module('wage.service', [])
+angular.module('wageCalculator.service', [])
 
 .factory('Wage', function ($http) {
   // Your code here
@@ -6,7 +6,7 @@ angular.module('wage.service', [])
   var getAll = function () {
     return $http({
       method: 'GET',
-      url: '/api/'
+      url: '/api'
     })
     .then(function (resp) {
       return resp.data;
@@ -14,12 +14,19 @@ angular.module('wage.service', [])
   };
 
   var addWage = function (wage) {
+    console.log(wage);
     return $http({
       method: 'POST',
-      url: '/api/',
-      data: wage
-    });
+      url: '/api',
+      data: {wage: wage}
+    }).then(console.log("hello"))
   };
+
+  // var addWage = function(wage) {
+  //   $http.post('/api', wage)
+  //     .then(function (wage, status, headers) {console.log("success")}),
+  //     (function (wage, status, header) {console.log('Failure')});
+  // }
 
   return {
     getAll: getAll,
